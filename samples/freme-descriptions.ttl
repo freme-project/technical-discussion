@@ -1,7 +1,7 @@
 @prefix doap: <http://usefulinc.com/ns/doap#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ex-api: <http://api.freme-project.eu/example/description/e-entity/Fdbpedia-spotlight/documents/> .
+@prefix ex-api: <http://api.freme-project.eu/example/description/e-entity/dbpedia-spotlight/documents/> .
 
 ex-api:v0.5
   a prov:SoftwareAgent, doap:Version ;
