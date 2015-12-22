@@ -1,0 +1,31 @@
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix dbpo: <http://dbpedia.org/ontology/> .
+@prefix nerd: <http://nerd.eurecom.fr/ontology#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/nif-21/acq#> .
+@prefix ex-api: <http://api.freme-project.eu/example/description/e-entity/Fdbpedia-spotlight/documents/> .
+
+ex:doc_offset_0_52
+  a nif:OffsetBasedString, nif:Context ;
+  nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+  nif:endIndex "52"^^xsd:nonNegativeInteger ;
+  nif:isString "Apple acquired Metaio, an Augmented Reality company."^^xsd:string .
+
+ex:doc_offset_0_5
+  a nif:OffsetBasedString ;
+  nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+  nif:endIndex "5"^^xsd:nonNegativeInteger ;
+  nif:anchorOf "Apple"^^xsd:string ;
+  nif:referenceContext ex:doc_offset_0_52 ;
+  itsrdf:taIdentRef dbp:Apple_Inc ;
+  nif:taIdentConf "0.8"^^xsd:decimal ;
+  nif:taIdentProv ex-api:v0.5 ;
+  itsrdf:taClassRef nerd:Organization ;
+  nif:taClassConf "0.95"^^xsd:decimal ;
+  nif:taClassProv ex-api:v0.5 .

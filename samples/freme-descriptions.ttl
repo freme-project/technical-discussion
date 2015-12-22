@@ -1,0 +1,21 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex-api: <http://api.freme-project.eu/example/description/e-entity/Fdbpedia-spotlight/documents/> .
+
+ex-api:v0.5
+  a prov:SoftwareAgent, doap:Version ;
+  doap:shortdesc "NIF REST API for entity recognition and linking us  ing DBPedia Spotlight engine" ;
+  doap:revision "0.5" ;
+  dcterms:isPartOf <http://freme-project.eu/example/description/e-entity> .
+
+<http://freme-project.eu/example/description/e-entity>
+  a doap:Project ;
+  doap:release ex-api:v0.5 ;
+  doap:shortdesc "Linked Data REST services for entity spotting and linking" ;
+  dcterms:isPartOf <http://freme-project.eu/example/description/project> ;
+  doap:vendor <http://freme-project.eu/example/description/consortium> .
+
+<http://freme-project.eu/example/description/project>
+  a doap:Project ;
+  doap:vendor <http://freme-project.eu/example/description/consortium> .
