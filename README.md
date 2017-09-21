@@ -5,4 +5,4 @@ This repository hosts the [technical discussion forum](https://github.com/freme-
 ## Useful links
 
 * [FREME project homepage](http://freme-project.eu)
-* [FREME documentation homepage](freme-project.github.io)
+* [FREME documentation homepage](https://freme-project.github.io)
